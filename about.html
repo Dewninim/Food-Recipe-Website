@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About  </title>
+    <!-- favicon -->
+    <link rel="icon" href="assets/favicon.png" type="image/x-icon">
+    <!-- normalize -->
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- main css -->
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <!-- nav  -->
+    <nav class="navbar">
+      <div class="nav-center">
+        <div class="nav-header">
+          <a href="index.html" class="nav-logo">
+            <img src="assets/logoo.png" alt="FlavorFiesta">
+          </a>
+          <button class="nav-btn btn">
+            <i class="fas fa-align-justify"></i>
+          </button>
+        </div>
+        <div class="nav-links">
+          <a href="index.html" class="nav-link"> home </a>
+          <a href="about.html" class="nav-link"> about </a>
+          <a href="tags.html" class="nav-link"> tags </a>
+          <a href="recipes.html" class="nav-link"> recipes </a>
+
+          <div class="nav-link contact-link">
+            <a href="contact.html" class="btn"> contact </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- end of nav -->
+    <main class="page">
+      <section class="about-page">
+        <article>
+          <h2>Cooking Adventures with FlavorFiesta</h2>
+          <p>
+            At FlavorFiesta, we're passionate about bringing the world's diverse culinary traditions to your kitchen. Our platform is a virtual gateway to a rich tapestry of global flavors, offering a comprehensive recipe database, cultural insights, and live cooking workshops led by experienced chefs from around the world. Whether you're looking to recreate cherished travel memories or simply expand your culinary horizons, FlavorFiesta is your go-to destination for inspiration, education, and community engagement in the exciting world of international cuisine
+          </p>
+          <p>
+            Join us on this delicious journey as we celebrate the joys of cooking and sharing meals with loved ones, one flavor-packed dish at a time.
+          </p>
+          <a href="contact.html" class="btn"> contact </a>
+        </article>
+        <!-- needs fixes -->
+        <img
+          src="./assets/about.jpg"
+          alt="Person Pouring Salt in Bowl"
+          class="img about-img"
+        />
+      </section>
+      <section class="featured-recipes">
+        <h5 class="featured-title">Look At This Awesome Recipes!</h5>
+        <div class="recipes-list">
+          <!-- single recipe -->
+          <a href="single-recipe.html" class="recipe">
+            <img
+              src="./assets/recipes/recipe-1.jpeg"
+              class="img recipe-img"
+              alt=""
+            />
+            <h5>Spicy Mashrooms</h5>
+            <p>Prep : 15min | Cook : 5min</p>
+          </a>
+          <!-- end of single recipe -->
+          <!-- single recipe -->
+          <a href="single-recipe1.html" class="recipe">
+            <img
+              src="./assets/recipes/recipe-2.jpeg"
+              class="img recipe-img"
+              alt=""
+            />
+            <h5>Greek Ribs</h5>
+            <p>Prep : 15min | Cook : 5min</p>
+          </a>
+          <!-- end of single recipe -->
+          <!-- single recipe -->
+          <a href="single-recipe2.html" class="recipe">
+            <img
+              src="./assets/recipes/recipe-3.jpeg"
+              class="img recipe-img"
+              alt=""
+            />
+            <h5>Vegetable Soup</h5>
+            <p>Prep : 15min | Cook : 5min</p>
+          </a>
+          <!-- end of single recipe -->
+        </div>
+      </section>
+    </main>
+    <!-- footer -->
+    <footer class="page-footer">
+      <p>
+        &copy; <span id="date"></span>
+        <span class="footer-logo">FlavorFiesta</span> SLTC
+      </p>
+    </footer>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
